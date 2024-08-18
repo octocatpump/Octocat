@@ -17,10 +17,19 @@
             color: #333;
             margin-bottom: 20px;
         }
+        h2 {
+            font-size: 1.5em;
+            color: #666;
+            margin-bottom: 20px;
+        }
         .octocat-gif {
             width: 200px;
             margin: 20px auto;
             display: block;
+        }
+        .octocat-main {
+            width: 150px;
+            margin: 0 10px;
         }
         .moon-text {
             font-size: 2em;
@@ -53,10 +62,28 @@
             font-size: 1.2em;
             color: #333;
         }
+        .octocat-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .open-source {
+            background-color: #ffcc00;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
     </style>
 </head>
 <body>
-    <h1>Octocat Goes to the Moon!!!</h1>
+    <div class="open-source">
+        <h2>This is an open-source project! Feel free to update this website as you like. Long live open-source memes!!!</h2>
+    </div>
+    <div class="octocat-container">
+        <img src="https://octodex.github.com/images/original.png" alt="Octocat" class="octocat-main">
+        <h1>Octocat Goes to the Moon!!!</h1>
+        <img src="https://octodex.github.com/images/original.png" alt="Octocat" class="octocat-main">
+    </div>
     <img src="https://octodex.github.com/images/spidertocat.png" alt="Octocat" class="octocat-gif">
     <img src="https://octodex.github.com/images/luchadortocat.png" alt="Octocat" class="octocat-gif">
     <img src="https://octodex.github.com/images/nyantocat.gif" alt="Octocat" class="octocat-gif">
